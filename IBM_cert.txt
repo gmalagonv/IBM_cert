@@ -1,0 +1,99 @@
+source: https://www.coursera.org/learn/open-source-tools-for-data-science/ungradedWidget/FHXOD/additional-sources-of-datasets
+
+Open datasets and sources
+
+In this data-driven world, some datasets are freely available for anyone to access, use, modify, and share. These are called open datasets.
+Open datasets include a public license and are very useful for your journey as a Data Scientist. Some of the most informative open dataset sources are listed below.
+
+Government Data:
+
+    https://www.data.gov/
+    https://www.census.gov/data.html
+    https://data.gov.uk/
+    https://www.opendatanetwork.com/
+    https://data.un.org/
+
+Financial Data Sources:
+
+    https://data.worldbank.org/
+    https://www.globalfinancialdata.com/
+    https://comtrade.un.org/
+    https://www.nber.org/
+    https://fred.stlouisfed.org/
+
+Crime Data:
+
+    https://www.fbi.gov/services/cjis/ucr
+    https://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html
+    https://www.drugabuse.gov/related-topics/trends-statistics
+    https://www.unodc.org/unodc/en/data-and-analysis/
+
+Health Data:
+
+    https://www.who.int/gho/database/en/
+    https://www.fda.gov/Food/default.htm
+    https://seer.cancer.gov/faststats/selections.php?series=cancer
+    https://www.opensciencedatacloud.org/
+    https://pds.nasa.gov/
+    https://earthdata.nasa.gov/
+    https://www.sgim.org/communities/research/dataset-compendium/public-datasets-topic-grid
+
+Academic and Business Data:
+
+    https://scholar.google.com/
+    https://nces.ed.gov/
+    https://www.glassdoor.com/research/
+    https://www.yelp.com/dataset
+
+Other General Data:
+
+    https://www.kaggle.com/datasets
+    https://www.reddit.com/r/datasets/
+
+Propriety datasets and sources
+
+Proprietary datasets contain data primarily owned and controlled by specific individuals or organizations. This data is limited in distribution because it is sold with a licensing agreement.
+Some data from private sources cannot be easily disclosed, like public data.
+
+National security data, geological, geophysical, and biological data are examples of propriety data. Copyright laws or patents usually bind this type of data. Proprietary datasets that mainly contain sensitive information are less widely available than open datasets.
+
+Some standard propriety dataset sources are listed below.
+
+Health Care:
+
+https://www.sgim.org/communities/research/dataset-compendium/proprietary-datasets
+
+Financial Market data:
+
+https://datarade.ai/data-categories/proprietary-market-data
+
+Google Cloud based datasets:
+
+https://cloud.google.com/datasets
+
+
+__________________________________________________________________________
+
+source: https://www.coursera.org/learn/open-source-tools-for-data-science/ungradedWidget/5FK2j/jupyter-notebooks-on-the-internet
+
+
+
+Jupyter Notebooks on the Internet
+
+There are thousands of interesting Jupyter Notebooks available on the internet for you to learn from. One of the best sources is: https://github.com/jupyter/jupyter/wiki
+
+It is important to notice that you can download such notebooks to your local computer or import them to a cloud based notebook tool so that you can rerun, modify, and apply what's explained in the notebook.
+
+Very often, Jupyter Notebooks are already shared in a rendered view. This means that you can look at them as if they were running locally on your machine. But sometimes, folks only share a link to the Jupyter file (which you can make out by the *.ipynb extension). In this case, you can pick the URL to that file and paste it to the NB-Viewer => https://nbviewer.jupyter.org/
+
+The list of Jupyter Notebooks provides you with a huge collection of materials to explore. Therefore, it might be useful to give you some pointers to interesting notebooks. You have covered some examples with data in the labs. Let's highlight some useful data that further explores data science. In addition, as we have covered different tasks in data science, we will also provide a sample notebook for each task.
+
+First, you start with exploratory data analysis, for which this notebook is highly recommended: https://nbviewer.jupyter.org/github/Tanu-N-Prabhu/Python/blob/master/Exploratory_data_Analysis.ipynb
+
+For data integration/cleansing at a smaller scale, the python library_pandas_is often used. For this task, you can have a look at this notebook: https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb
+
+If you want to know more about clustering, have a look at this notebook: https://nbviewer.jupyter.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb
+
+And finally, if you want an in-depth notebook on the_iris_dataset, have a look at this: https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis
+
+
