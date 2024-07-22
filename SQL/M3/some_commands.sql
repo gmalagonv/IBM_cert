@@ -78,8 +78,27 @@ GROUP BY DEP_ID
 HAVING count(*) < 4
 ORDER BY AVG_SALARY;
 
-/* */
-/* */
+
+
+-- OTHER FUNCTIONS
+
+/*you want to retrieve a list of books priced in the range $10 to $25 from the table Book. 
+What are the two ways you can specify the range? 
+ */
+
+
+SELECT Title, Price FROM Book WHERE Price >= 10 and Price <= 25;
+SELECT Title, Price FROM Book WHERE Price BETWEEN 10 and 25;
+
+
+
+
+
+/* You want to retrieve a list of authors from Australia, Canada, and India from the table Authors.
+ Which SQL statement is correct?*/
+SELECT * FROM Author WHERE Country IN ('Australia', 'Canada', 'India');
+
+
 /* */
 /* */
 /* */
