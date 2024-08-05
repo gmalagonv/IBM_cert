@@ -92,3 +92,8 @@ WHERE MONTH(RESCUEDATE)="05";
 
 --The rescue shelter is supposed to find good homes for all animals within 1 year of their rescue. Write a query that displays the ID and the target date.
 SELECT ID, DATE_ADD(RESCUEDATE, INTERVAL 1 YEAR) AS 'LAST DATE' FROM PETRESCUE
+
+
+-- time from that LAST DATE until today in the yymmdd formats:
+
+SELECT ID, FROM_DAYS(DATEDIFF(CURRENT_DATE, (DATE_ADD(RESCUEDATE, INTERVAL 1 YEAR)))) AS 'time_from_release' FROM PETRESCUE
